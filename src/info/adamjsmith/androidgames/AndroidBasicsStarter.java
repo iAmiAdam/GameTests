@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class AndroidBasicsStarter extends ListActivity {
-	String tests[] = {"LifecycleTest", "SingleTouchTest", "MultiTouchTest", "KeyTest", 
+	String tests[] = {"LifeCycleTest", "SingleTouchTest", "MultiTouchTest", "KeyTest", 
 			"AccelerometerTest", "AssetsTest", "ExternalStorageTest", "SoundPoolTest", 
 			"MediaPlayerTest", "FuillScreenTest", "RenderViewTest", "ShapeTest", 
 			"BitmapTest", "FontTest", "SurfaceViewTest" }; 
@@ -25,8 +25,7 @@ public class AndroidBasicsStarter extends ListActivity {
 		super.onListItemClick(list,  view,  position, id);
 		String testName = tests[position];
 		try {
-			Class clazz = Class
-					.forName("info.adamjsmith.androidgames." + testName);
+			Class clazz = Class.forName("info.adamjsmith.androidgames." + testName);
 			Intent intent = new Intent(this, clazz);
 			startActivity(intent);
 		} catch (ClassNotFoundException e) {
