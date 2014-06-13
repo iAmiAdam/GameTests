@@ -19,7 +19,7 @@ public class AssetsTest extends Activity {
 		AssetManager assetManager =  getAssets();
 		InputStream inputStream = null;
 		try {
-			inputStream = assetManager.open("texts/mytext/txt");
+			inputStream = assetManager.open("texts/mytext.txt");
 			String text = loadTextFile(inputStream);
 			textView.setText(text);
 		} catch (IOException e) {
