@@ -41,5 +41,8 @@
         <activity android:name=".AssetsTest"
             android:label="Assets Test"
             android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".ExternalStorageTest"
+            android:label="External Storage Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
     </application>
 </manifest>
