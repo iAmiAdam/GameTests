@@ -25,5 +25,8 @@
         <activity android:name=".LifeCycleTest"
             android:label="Life Cycle Test"
             android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".SingleTouchTest"
+            android:label="Single Touch Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
     </application>
 </manifest>
