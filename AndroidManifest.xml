@@ -44,5 +44,8 @@
         <activity android:name=".ExternalStorageTest"
             android:label="External Storage Test"
             android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".SoundPoolTest"
+            android:label="Sound Pool Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
     </application>
 </manifest>
