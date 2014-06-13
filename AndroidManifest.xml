@@ -28,5 +28,8 @@
         <activity android:name=".SingleTouchTest"
             android:label="Single Touch Test"
             android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".MultiTouchTest"
+            android:label="Multi Touch Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
     </application>
 </manifest>

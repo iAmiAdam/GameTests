@@ -40,7 +40,7 @@ public class SingleTouchTest extends Activity implements OnTouchListener {
 		builder.append(", ");
 		builder.append(event.getY());
 		String text = builder.toString();
-		Log.d("ToughTest", text);
+		Log.d("TouchTest", text);
 		textView.setText(text);
 		return true;
 	}
