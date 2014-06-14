@@ -50,5 +50,14 @@
         <activity android:name=".MediaPlayerTest"
             android:label="Media Player Test"
             android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".FullScreenTest"
+            android:label="Full Screen Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".RenderViewTest"
+            android:label="Render View Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".ShapeTest"
+            android:label="Shape Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
     </application>
 </manifest>
