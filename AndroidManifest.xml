@@ -62,5 +62,8 @@
         <activity android:name=".BitmapTest"
             android:label="Bitmap Test"
             android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name=".SurfaceViewTest"
+            android:label="Surface View Test"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
     </application>
 </manifest>
